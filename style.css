@@ -1,5 +1,7 @@
 body{
     background-color: rgb(230, 228, 228);
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
 .head{
     width: 100%;
@@ -311,4 +313,19 @@ body{
     text-align: center;
    background: rgb(245, 87, 114)
 }
+@media screen{
+ #log{
+    margin-left: 70%;
+
+ }
+ body{
+    font-size: 20px;
+ }
+ .almost{
+    /* display: grid; */
+    /* grid-template-columns: repeat(2, 1fr); */
+ }
+ 
+} 
+ 
 
