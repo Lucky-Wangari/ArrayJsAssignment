@@ -420,5 +420,87 @@ body{
     border-radius: 7px;
     background-image: linear-gradient(red,pink); 
 }
+@media (max-width: 700px) {
+body{
+    background-color: red;
+}
+#purple{
+    width: 60%;
+    height: 65%;
+    margin-top: 10%;
+}
+.short{
+    font-size: xx-small;
+}
+#graph{
+    font-size: xx-small;
+}
+#purples{
+    width: 60%;
+    height: 65%;
+    margin-top: 10%;
+}
+.navi{
+    display: none;
+}
+
+}
+
+@media only screen and (min-width: 800px) and (max-width:1000px) {
+    body{
+        background-color: yellow;
+    }
+    .navi{
+        display: none;
+    }
+    .divfour{
+        font-size: xx-small;
+        margin-right: 10%;
+    }
+    #photo{
+        width: 70%;
+    }
+    #rights{
+        margin-right: 20%;
+        width: 80%;
+    }
+    .almost{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 80%;
+    }
+    .last{
+        font-size: xx-small;
+        width: 80%;
+    }
+    #sim{
+        margin-right: 30%;
+    }
+    #purple{
+        width: 40%;
+        height: 50%;
+        margin-left: 35%;
+        margin-top: 20%;
+    }
+    .short{
+        font-size: medium;
+    
+    }
+    #graph{
+        font-size: medium;
+    }
+    #purples{
+        width: 40%;
+        height: 50%;
+        margin-top: 25%;
+    }
+    }
+    
+
+    
+
+
+
+
 
 
